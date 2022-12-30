@@ -1,5 +1,4 @@
 from naves_espaciales.funtions import limpiar
-from naves_espaciales.clase_principal import NaveEspacial
 from naves_espaciales.vehiculo_lanzadera.lanzadera import Lanzadera
 from naves_espaciales.no_tripuladas.nave_no_tripulada import NoTripulada
 from naves_espaciales.tripuladas.nave_tripulada import Tripulada

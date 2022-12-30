@@ -1,4 +1,4 @@
-from naves_espaciales.clase_principal import NaveEspacial
+from naves_espaciales.nave_espacial import NaveEspacial
 
 
 class Lanzadera(NaveEspacial):
