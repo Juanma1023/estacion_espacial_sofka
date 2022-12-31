@@ -207,29 +207,3 @@ class Json():
                     break
                 else:
                     msg = input("Ingrese Si / No si desea regresar al menú")
-
-
-
-
-
-'''
-def consulta_simple():
-    print("-------------------------------------------------")
-    print("1 - Consultar Tipo de Nave")
-    print("2 - Consultar todas las naves registradas")
-    print("")
-    msg = input("Ingrese la opcion deseada: ")
-    while True:
-        if msg == "1":
-            print("Lanzadera")
-            print("No Tripulada")
-            print("ripulada")
-            break
-        if msg == "2":
-            for i in range(len(listaNaves)):
-                print(listaNaves[i])
-            break
-        else:
-            msg = input("Ingrese una opcion correcta: ")
-'''
-        
