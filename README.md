@@ -26,13 +26,6 @@ luego para activar el entorno ejecutamos
 ```
 .\env\Scripts\activate
 ```
-## Instalación librerias requeridas
-
-Para instalar todas las librerias basta con ejecutar el siguiente codigo en la terminal, el cual instala nuestro archivo [requirements.txt]()
-
-```
-pip install -r requirements.txt
-```
 
 ## Ejecucion
 Dirigete al archivo main.py y ejecuta en tu IDE, o ejecuta el siguiente codigo en la terminal
