@@ -1,5 +1,5 @@
 
-from naves_espaciales.nave_espacial import crear_nave
+from naves_espaciales.create import Json
 from naves_espaciales.funtions import limpiar
 
 import sys
@@ -23,7 +23,9 @@ if __name__ == "__main__":
         opcion = input("Digite la opcion deseada: ")
         if opcion == "1":
             limpiar(seg=0)
-            crear_nave()
+            objeto = Json()
+            objeto.read()
+            objeto.write()
         if opcion == 'X':
             print("Saliendo...")
             limpiar(seg = 2)
