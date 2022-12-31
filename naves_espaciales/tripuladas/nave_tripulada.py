@@ -7,7 +7,7 @@ class Tripulada(NaveEspacial):
         self.capacidad = capacidad
     
     def __str__(self):
-        return f"Informacion Ingresada: \n\
+        return f"\n\
                 Tipo de Nave: {self.tipo} \n\
                 Nombre: {self.nombre} \n\
                 Pais Origen: {self.pais_creacion} \n\
