@@ -1,6 +1,7 @@
 
 from naves_espaciales.create import Json
 from naves_espaciales.funtions import limpiar
+from naves_espaciales.consultas import consulta_simple, consulta_avanzada
 
 import sys
 
@@ -26,6 +27,15 @@ if __name__ == "__main__":
             objeto = Json()
             objeto.read()
             objeto.write()
+        if opcion == "2":
+            objeto = Json()
+            objeto.read()
+            consulta_simple()
+        if opcion == "3":
+            objeto = Json()
+            objeto.read()
+            consulta_avanzada()
+
         if opcion == 'X':
             print("Saliendo...")
             limpiar(seg = 2)
