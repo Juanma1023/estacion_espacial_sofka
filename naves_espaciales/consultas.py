@@ -65,10 +65,7 @@ def read_comp(nave,nombre):
         json_file = json.load(file)
         for data in json_file[nave]:
             if data["Nombre"] == nombre:
-                print(json_file[nave])
-            else:
-                print("Nave no encontrada")
-
+                print(data)
     
 def consulta_avanzada():
     limpiar(seg=0)
